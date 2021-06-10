@@ -190,7 +190,6 @@ class JAWSProducer(JAWSConnection) :
           :type topic: string
           :param name: name of producer
           :type name: string
-
       """
       super(JAWSProducer,self).__init__(topic)
       
@@ -267,7 +266,6 @@ class JAWSConsumer(JAWSConnection) :
           :type name: string
           :param monitor : Continue monitoring
           :type monitor: boolean
-
       """
             
       super(JAWSConsumer,self).__init__(topic)
@@ -307,4 +305,3 @@ class JAWSConsumer(JAWSConnection) :
       """
       self.event_table.stop()
       
-                  

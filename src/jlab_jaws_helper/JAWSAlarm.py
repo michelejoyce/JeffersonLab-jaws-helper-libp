@@ -3,7 +3,6 @@
 .. autoclass:: JAWSAlarm
    :synopsis : Consolidated alarm object
 .. moduleauthor::Michele Joyce <erb@jlab.org>
-
 """
 
 from jlab_jaws.avro.subject_schemas.entities import *
@@ -223,5 +222,3 @@ class JAWSAlarm(object) :
       if (self.config != None and property in self.config) :
          val = self.config[property]
       return(val)
-  
-        

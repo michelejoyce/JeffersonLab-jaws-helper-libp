@@ -93,5 +93,3 @@ class JAWSProcessor(object) :
          alarm.update_active(msg)
          
       return(alarm)
-
-      
