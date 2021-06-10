@@ -1,2 +1,2 @@
 # jaws-helper-libp
-Helper Python classes for JAWS clients
+Helper classes for JAWS python clients
