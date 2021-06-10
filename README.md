@@ -1,2 +1,2 @@
-# JeffersonLab-jaws-helper-libp
+# jaws-helper-libp
 Helper Python classes for JAWS clients
